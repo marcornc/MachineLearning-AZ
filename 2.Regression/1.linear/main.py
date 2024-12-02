@@ -1,5 +1,8 @@
+#######
+# I don't need the Feature Scaling becose the Coefficient of the equescion will take care of it
+#######
 # Ordinary Least Squares
-## to find the bes Linear Regression
+## to find the best Linear Regression
 
 # Import Libraries
 import numpy as nu

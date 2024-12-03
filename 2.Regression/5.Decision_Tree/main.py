@@ -17,7 +17,7 @@ regr.fit(X, y)
 print(regr.predict([[6.5]]))
 
 #       Visualising the Decision Tree Regression results (higher resolution)
-X_grid = np.arange(min(X), max(X), 0.1)
+X_grid = np.arange(min(X), max(X), 0.01)
 X_grid = X_grid.reshape(len(X_grid), 1)
 plt.scatter(X, y, c='red')
 plt.plot(X_grid, regr.predict(X_grid), c='blue')
